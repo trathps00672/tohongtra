@@ -1,0 +1,249 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+form div {
+	margin-bottom: 10px;
+	
+	}
+label{
+	font-weight:bold;
+
+	}
+form input#name{
+	
+	margin-left: 19px;
+	}
+form input#email{
+	margin-left: 27px;
+
+}
+#form{
+	
+	width:650px;
+	border:1px solid #000;
+	background:#A8D4FF;
+	margin: 20px 20px;
+	padding:10px 0px 0px 5px;
+	}
+#jobs{
+	
+	margin-left:20px;
+	}
+#botton:hover{
+	color:#fff;
+	background:#5197FF;
+	cursor:pointer;
+	}
+
+body{font-family:Arial, Helvetica, sans-serif;
+     width:900px;
+     margin:0px auto;
+	 background-image:url(../hinhanh/bg.png)
+}
+#banner{
+     width:900px;
+     height: 315px;
+     background:url(../hinhanh/banner.jpg);
+     text-align:center;
+     line-height:200px;
+     color:#FFF;
+	 margin-bottom:0px;
+	 clear: both;   
+}
+#menu{
+     width:900px;
+     height:45px;
+     background:#F30;
+     color:#FFF;
+     text-align:center;
+     line-height:45px;
+}
+#footer{
+     clear:left;
+     width:900px;
+     height:120px;
+     background:rgb(60, 146, 207);
+     color:#FFF;
+     line-height:60px;
+     text-align:center;
+	 border-bottom-left-radius:2em;
+	 text-align:right;
+
+}
+
+#main{
+		width:900px;
+		height:700px;
+		position:relative;
+		background-color:rgb(60, 146, 207);
+
+	}
+#left{
+     width:200px;
+	 height:700px;	
+     color:#fff;
+     float:left;
+     text-align:left;
+	 background-color:rgb(60, 146, 207);
+	 border-left-color:#444;
+	 border:1px;
+}
+  
+
+
+#right{
+	width:678px;
+	background-color:#fff;
+	color:#444;
+	height:680px;
+	float:right;
+	text-align:left;
+	border-bottom-left-radius:2em;
+	padding:10px;
+	overflow:auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	  }
+	 
+
+.menu{
+border:none;
+border:1px;
+border-bottom: 1px solid #ccc;
+margin:0px;
+padding:0px;
+font:"Times New Roman", Times, serif;
+font-size:14px;
+font-weight:bold;
+}
+.menu ul{
+background-color: rgb(60, 146, 207);
+height:45px;
+list-style:none;
+margin:0;
+padding:0;
+}
+.menu li{
+float:left;
+padding:0px;
+}
+.menu li a{
+color:#cccccc;
+display:block;
+font-weight:normal;
+line-height:45px;
+margin:0px;
+padding:0px 45px;
+text-align:center;
+text-decoration:none;
+}
+.menu li a:hover, .menu ul li:hover a{
+background:url("../hinhanh/hover.gif") bottom center no-repeat;
+color:#FFFFFF;
+text-decoration:none;
+}
+.menu li ul{
+
+display:none;
+height:auto;
+padding:0px;
+margin:0px;
+border:0px;
+position:absolute;
+width:225px;
+z-index:200;
+/*top:1em;
+/*left:0;*/
+}
+.menu li:hover ul{
+display:block;
+}
+.menu li li {
+background:url('../hinhanh/sub_sep.gif') bottom left no-repeat;
+display:block;
+float:none;
+margin:0px;
+padding:0px;
+width:225px;
+}
+.menu li:hover li a{
+background:none;
+}
+.menu li ul a{
+display:block;
+height:45px;
+font-size:12px;
+font-style:normal;
+margin:0px;
+padding:0px 10px 0px 15px;
+text-align:left;
+}
+.menu li ul a:hover, .menu li ul li:hover a{
+background:url('../hinhanh/hover_sub.gif') center left no-repeat;
+border:0px;
+color:#ffffff;
+text-decoration:none;
+}
+.menu p{
+clear:left;
+}
+#left li {
+  padding: 15px 0 25px 25px;
+  margin: 0 0 8px 0;
+  background: url(../hinhanh/icon-title.png) left 4px no-repeat;
+  border-bottom: 1px solid #ccc;
+}
+#left li:hover{
+background-color:#000;
+}
+#left li:hover a{
+color:#fff;
+}
+#left ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#left li a {
+	color:#fff;
+  text-transform: uppercase;
+  padding-left:20px;
+}
+a:link {
+  color: #0a839d;
+  text-decoration: none;
+}
+ul, menu, dir {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+#main #right h1 strong {
+	font-family: "Times New Roman", Times, serif;
+	color: #F00;
+	font-size: 36px;
+}
+    #main #right h1 strong {
+	font-size: 18px;
+}
+    #main #right h1 strong {
+	font-size: 24px;
+}
+    #main #right p strong {
+	color: #00F;
+	font-size: 18px;
+}
+    #main #right p {
+	font-style: italic;
+}
+    #main #right p {
+	font-family: "Times New Roman", Times, serif;
+}
+    #main #right p {
+	color: #603;
+}
